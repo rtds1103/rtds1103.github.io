@@ -131,7 +131,7 @@ a:focus,
   color: #eee;
 }
 .on {
-  background-color: #363636 !important;
+  background-color: #595959 !important;
   padding: 0 !important;
   padding: 10px 0 !important;
 }
@@ -1108,7 +1108,7 @@ label {
   height: 68px;
   border-radius: 35px;
   background: #fff;
-  color: #757575;
+  color: #373737;
   font-size: 16px;
   padding-left: 50px;
   margin-bottom: 20px;
@@ -1204,4 +1204,26 @@ label {
 }
 .navbar-brand {
     padding: 0px 0px !important;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #ff7300; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #005eb9; /* Add a dark-grey background on hover */
+}
+ html {
+  scroll-behavior: smooth;
 }
