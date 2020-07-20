@@ -1202,3 +1202,6 @@ label {
   background-color: rgba(151, 190, 228, 0.7) !important;
   border-color: rgb(151, 190, 228) !important;
 }
+.navbar-brand {
+    padding: 0px 0px !important;
+}
