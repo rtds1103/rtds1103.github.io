@@ -1203,7 +1203,7 @@ label {
   border-color: rgb(151, 190, 228) !important;
 }
 .navbar-brand {
-    padding: 0px 0px !important;
+  padding: 0px 0px !important;
 }
 #myBtn {
   display: none; /* Hidden by default */
@@ -1224,6 +1224,48 @@ label {
 #myBtn:hover {
   background-color: #005eb9; /* Add a dark-grey background on hover */
 }
- body {
+body {
   scroll-behavior: smooth;
+}
+
+/* process css starts */
+#process {
+  padding: 120px 0;
+  background: #f6f6f6;
+}
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 27px;
+  right: 53px;
+  font-size: 33px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
