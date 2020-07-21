@@ -1224,6 +1224,6 @@ label {
 #myBtn:hover {
   background-color: #005eb9; /* Add a dark-grey background on hover */
 }
- html {
+ body {
   scroll-behavior: smooth;
 }
