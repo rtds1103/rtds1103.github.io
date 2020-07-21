@@ -1250,8 +1250,8 @@ body {
 /* Top right text */
 .top-right {
   position: absolute;
-  top: 27px;
-  right: 53px;
+  top: 20px;
+  right: 45px;
   font-size: 33px;
 }
 
