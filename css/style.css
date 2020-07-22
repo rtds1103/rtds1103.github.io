@@ -1272,3 +1272,39 @@ body {
 .process-col1{
   margin-bottom: 63px;
 }
+/*.goog-te-banner{
+  display:none !important;
+}*/
+
+/*.google-translate {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+}*/
+
+/*.goog-logo-link {
+    display: none !important;
+}*/
+
+/*.goog-te-gadget {
+    color: transparent !important;
+}*/
+
+/*#google_translate_element {
+    display: none;
+}*/
+/*
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}*/
+
+/*#google_translate_element a {
+  display: none;
+}*/
+.goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {
+    color: #444;
+    **display: none;**
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
