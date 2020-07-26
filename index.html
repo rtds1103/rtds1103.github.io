@@ -150,9 +150,8 @@
                           data-wow-delay=".4s"
                         >
                           <p>
-                            Nowadays it's foremost to be present online in the
-                            internet world which helps to develop and succeed in
-                            our business than your thoughts.
+                            It's foremost important to be present in online world which helps to develop and succeed in
+                            your business than your thoughts.
                           </p>
                         </div>
                         <a class="genric-btn2  page-scroll" href="#portfolio">Read more</a>
@@ -196,7 +195,7 @@
                         <div class="e-para wow fadeIn" data-wow-duration="1s">
                           <p>
                             We help you to make out the logo, banners, and make
-                            out the ads for your business which helps to develop
+                            out the ads for your business which in turn helps to Promote
                             your business.
                           </p>
                         </div>
@@ -221,7 +220,7 @@
                         <div class="e-para wow fadeIn" data-wow-duration="1s">
                           <p>
                             It's most important to choose the right domain for
-                            your website, we help you to find in and also create
+                            your website, we help you to find it and also create
                             a professional email for your domain.
                           </p>
                         </div>
@@ -371,13 +370,14 @@
       </div>
     </div> -->
     <!-- Portfolio Section fg-->
+
     <div id="portfolio">
       <div class="container">
         <div class="section-title text-center center">
-          <h2>Projects</h2>
+          <h2>Our Clients</h2>
           <hr />
           <p>
-            Designed projects according to the client needs and satisfaction
+            We Work with
           </p>
         </div>
         <!-- <div class="categories">
@@ -639,55 +639,18 @@
             </div>
           </div>
         </div> -->
-        <div class="container mt-40">
-          <div class="row mt-30">
-            <div class="col-md-4 col-sm-6">
-              <div class="box2">
-                <img src="img/portfolio/dreamhomz.JPG" />
-                <div class="box-content">
-                  <div class="inner-content">
-                    <h3 class="title">DreamHomz</h3>
-                    <span class="post">Interior Planning and designing</span>
+        <section class="customer-logos slider">
+          <div class="slide"><img src="img/client/dreamhomz.png"></div>
+          <div class="slide"><img src="img/client/jddesigns.png"></div>
+          <div class="slide"><img src="img/client/colorfull.png"></div>
+          <div class="slide"><img src="img/client/sanctum.png"></div> 
+          <div class="slide"><img src="img/client/dreamhomz.png"></div>
+          <div class="slide"><img src="img/client/jddesigns.png"></div>
+          <div class="slide"><img src="img/client/colorfull.png"></div>
+          <div class="slide"><img src="img/client/sanctum.png"></div> 
+          
 
-                    <a href="https://dreamhomz.net.in/" target="_blank"
-                      ><button class="btn btn-info">View</button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="box2">
-                <img src="img/portfolio/colorfull.JPG" />
-                <div class="box-content">
-                  <div class="inner-content">
-                    <h3 class="title">colorfull</h3>
-                    <span class="post">Painting Services</span>
-                    <a href="https://colorfull.co.in/" target="_blank"
-                      ><button class="btn btn-info">View</button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="box2">
-                <img src="img/portfolio/sanctuminstitutions.JPG" />
-                <div class="box-content">
-                  <div class="inner-content">
-                    <h3 class="title">Sanctum Institutions</h3>
-                    <span class="post">Educational Institute</span>
-                    <a
-                      href="https://www.sanctuminstitutions.com/"
-                      target="_blank"
-                      ><button class="btn btn-info">View</button></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </div>
     </div>
 
@@ -802,7 +765,7 @@
                   <div class="single-contact-info">
                     <h4>Address</h4>
                     <p>
-                      We are available only <br />
+                      We are available <br />
                       on Digital World
                     </p>
                   </div>
@@ -1074,6 +1037,7 @@
 </script>
 <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
@@ -1084,5 +1048,31 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script type="text/javascript">
+      
+      $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+    </script>
   </body>
 </html>
