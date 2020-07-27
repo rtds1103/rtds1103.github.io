@@ -820,23 +820,30 @@
                   </div> -->
                   <!-- /.title -->
                   <form
-                    action="inc/sendemail.php"
+                    name="sentMessage"
+                    action="https://raj1103.000webhostapp.com/js/contact_me.php"
                     class="contact-form"
                     novalidate="novalidate"
                   >
                     <input
                       type="text"
                       name="name"
+                      id="name"
                       placeholder="Your full name"
+                      required="required"
                     />
                     <input
                       type="text"
                       name="email"
+                      id="email"
                       placeholder="Your email address"
+                      required="required"
                     />
                     <textarea
                       name="message"
+                      id="message"
                       placeholder="What you are looking for?"
+                      required="required"
                     ></textarea>
                     <button type="submit" class="thm-btn yellow-bg">
                       Submit Now
@@ -992,6 +999,15 @@
           </form>
         </div> -->
       </div>
+    </div>
+    <div class="icon-bar1">
+      <a
+        href="https://api.whatsapp.com/send?phone=917418374922"
+        class="whatsapp"
+        ><img
+        src="https://pluspng.com/img-png/whatsapp-png-whatsapp-logo-png-1000.png"/
+        width="50px" height="50px"></a
+      >
     </div>
     <div id="footer">
       <div class="container text-center">

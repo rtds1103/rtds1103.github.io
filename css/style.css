@@ -1425,3 +1425,36 @@ body {
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+/*whatsapp css*/
+ /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar1 {
+  position: fixed;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 100
+}
+
+/* Style the icon bar links */
+.icon-bar1 a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+.icon-bar1 a:hover {
+  /*background-color: #000;*/
+  transform: scale(1.1);
+}
+
+.whatsapp {
+  /*background: #00e676;*/
+  color: white;
+  z-index: 1
+
+}
+/*whatsapp css*/
