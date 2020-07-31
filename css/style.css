@@ -1182,8 +1182,12 @@ label {
   margin: 5px;
 }
 
-.contact-info .social a.fa-twitter {
-  background: #00acee;
+.contact-info .social .insta {
+  height: 5rem;
+  margin-top: 0.7rem;
+}
+.contact-info .social a.fa-whatsapp {
+  background: #25d366;
 }
 
 .contact-info .social a.fa-instagram {
