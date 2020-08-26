@@ -197,7 +197,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/landingpage.jpg) no-repeat center bottom;
+  background: url(../img/landingpage.jpeg) no-repeat center bottom;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -258,7 +258,7 @@ header .intro-text {
 
 #services {
   padding: 120px 0;
-  background: url(../img/service.jpg) no-repeat center bottom;
+  background: url(../img/service.jpeg) no-repeat center bottom;
 }
 #services .service {
   padding-left: 40px;
@@ -382,7 +382,7 @@ ol.type li a:hover {
 /* Team Section */
 #team {
   color: #fff;
-  background: #f69749 url(../img/team.jpg) center top no-repeat;
+  background: #f69749 url(../img/team.jpeg) center top no-repeat;
   background-size: cover;
 }
 #team .overlay {
