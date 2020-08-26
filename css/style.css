@@ -259,6 +259,7 @@ header .intro-text {
 #services {
   padding: 120px 0;
   background: url(../img/service.jpg) no-repeat center bottom;
+  background-color: #fcfeff;
 }
 #services .service {
   padding-left: 40px;
